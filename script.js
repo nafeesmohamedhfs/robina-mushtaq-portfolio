@@ -53,7 +53,7 @@
       const t0 = performance.now(); const dur = 1600;
       const tick = (t) => {
         const p = Math.min((t - t0) / dur, 1); const eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(end * eased) + suf;
+        el.textContent = Math.round(end * eased).toLocaleString('en-US') + suf;
         if (p < 1) requestAnimationFrame(tick);
       };
       requestAnimationFrame(tick);
