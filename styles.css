@@ -109,9 +109,9 @@ body.menu-open .nav { color: #fff; background: transparent; box-shadow: none; ba
 /* ---------- Hero ---------- */
 .hero { position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: center; color: #fff; overflow: hidden; background: #3a332c; isolation: isolate; }
 /* Blurred Dubai skyline behind everything */
-.hero__bg { position: absolute; inset: -40px; z-index: -3; }
-.hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 35% 40%; filter: blur(14px) saturate(.75) brightness(.8) sepia(.25); transform: scale(1.08); }
-.hero__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(196,170,140,.18), rgba(40,32,26,.25)); }
+.hero__bg { position: absolute; inset: 0; z-index: -3; }
+.hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; filter: saturate(.9) brightness(.85); }
+.hero__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(40,32,26,.15), rgba(40,32,26,.3)); }
 /* Portrait, feathered into the blurred background */
 /* Portrait sits inside the right-hand frame: below the nav, with breathing room above and to the left of her face */
 .hero__media { position: absolute; right: 0; bottom: 0; height: min(calc(100% - 120px), 46vw); aspect-ratio: 5 / 4; z-index: -2;
