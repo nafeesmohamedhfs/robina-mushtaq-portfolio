@@ -27,7 +27,7 @@ Create an `images` folder and drop Robina's photos here with these exact file na
 
 | File | Used in |
 |---|---|
-| `robina-hero.jpg` | Full-width hero (portrait with Dubai skyline, landscape ~2400×1400) |
+| `robina-hero.webp` | Hero portrait (already added; replace with a higher-resolution original, ~1600×1280) |
 | `robina-portrait.jpg` | Arched portrait in the About section (portrait ~1000×1250) |
 | `robina-podcast.jpg` | "The Next Address" podcast feature (landscape ~1500×1000) |
 | `robina-avatar.jpg` | Small round photo in the Contact section (square ~300×300) |
